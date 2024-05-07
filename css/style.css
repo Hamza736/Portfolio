@@ -710,6 +710,10 @@ h3.my-profession {
     text-transform: capitalize;
     color: var(--text-black-900);
 }
+.timeline .timeline-title1 {
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
 
 .timeline .timeline-text {
     line-height: 25px;
@@ -897,7 +901,7 @@ h3.my-profession {
     }
 
     .nav-toggler {
-        margin-left: 660px;
+        margin-left: 830px;
     }
 
     .section {
@@ -913,7 +917,13 @@ h3.my-profession {
     }
 
 }
+@media only screen and (max-width: 1024px)
+{
+    .nav-toggler {
+        margin-left: 650px;
+    }
 
+}
 @media only screen and (max-width: 846px) {
     .about .about-img {
         width: 100%;
@@ -928,6 +938,9 @@ h3.my-profession {
     /* .about .about-content .buttons {
         display: flex;
         justify-content: center;
+    } */
+    /* .nav-toggler {
+        margin-left: 600px;
     } */
 }
 
