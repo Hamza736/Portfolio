@@ -105,3 +105,12 @@ function asideSectionTogglerBtn() {
         allSection[i].classList.toggle("open");
     }
 }
+
+
+$(document).ready(function(){
+$(".nav-toggler").click(function(){
+   
+$(".mark").toggle();
+$(".bars").toggle();
+});
+});
